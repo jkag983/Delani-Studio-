@@ -16,7 +16,27 @@ h1 {
     text-align: center;
     font-style: Open Sans Condensed;
 }
+h2 {
+    text-align: center;
+    font-style: Open Sans Condensed;
+}
+
 p {
     text-align: center;
     font-style: Open Sans Condensed;
+}
+
+
+.clickable {
+    cursor: pointer;
+}
+
+
+.clickable:hoover {
+    text-decoration: rgb(121, 69, 33);
+}
+
+
+.img-showing {
+    display: none;
 }
