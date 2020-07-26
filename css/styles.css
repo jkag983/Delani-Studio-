@@ -2,8 +2,11 @@ body {
     background-color: black;
 }
 
-.container {
-    background-color: rgb(241, 238, 238);
+.container-upper{
+    background-color: teal;
+    width: 1200px;
+    margin: 0px;
+
 }
 
 .intro1 {
@@ -60,27 +63,30 @@ p {
     display:none;
 }
 
-.contacts {
-    background-image: url(../assets/backgrounds/c_image.jpg);
-    background-size: cover;
-    background-position: center;
-}
+.container-lower {
+    width: 1000px;
+    min-height: 100px;
+    background-color: teal;
+    margin: 0px;
+    display: auto;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-.card-deck {
-    padding-bottom: 20px;
-    padding-top: 10px;
-    padding-left: 100px;
-       
-}
+}   
 
-.size {
-    height: 200px;
+.container-lower.box{
+    position: relative;
     width: 200px;
-    border-radius: 10px;
-    
-    
-    
-    
+    height: 150px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.wrapper {
+    background-image: url(../assets/backgrounds/c_image.jpg);
+
 }
 
 #name {
@@ -97,7 +103,7 @@ p {
 
 }
 
-#message {
+.message {
     background: none;
     width: 1050px;
     height: 300px;
