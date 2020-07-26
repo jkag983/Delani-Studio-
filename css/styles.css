@@ -20,6 +20,7 @@ h1 {
 h2 {
     text-align: center;
     font-style: Open Sans Condensed;
+    
 }
 
 p {
@@ -34,12 +35,21 @@ p {
 
 
 .clickable:hoover {
-    text-decoration: rgb(121, 69, 33);
+    text-decoration: solid;
 }
 
 
-.img-showing {
+#firstImg-showing {
     display: none;
+
+}
+
+#secondImg-showing {
+    display: none;
+}
+
+#thirdImg-showing {
+    display:none;
 }
 
 .contacts {
@@ -47,4 +57,21 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+.card-deck {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 80px;
+    width: 1000px;
+    
+    
+
+    
+}
+
+#whatWeDo {
+    size: 10px;
+}
+
+
 
