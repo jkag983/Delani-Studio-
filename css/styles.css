@@ -1,5 +1,8 @@
 body {
     background-color: black;
+    background-size: cover;
+    height: 100vh;
+
 }
 
 .container-upper{
@@ -84,37 +87,44 @@ p {
     display: inline-block;
 }
 
-.wrapper {
-    background-image: url(../assets/backgrounds/c_image.jpg);
-
+h3 {
+    color: rgb(173, 164, 164);
 }
 
-#name {
-    position: absolute;
-    width: 300px;
-    background: none;
-    
+.wrapper {
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    position: relative;    
+}
+
+.contact-form {
+    background: rgba(0, 0, 0, 0.8);   
+}
+
+.input-field .input,
+.message textarea {
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    width: 100%;
+    height: 250px;
+
+}
+#name { 
+    background: transparent;
 }
 
 #email {
-    float: right;
-    background: none;
-    width: 300px;
-
-}
-
-.message {
-    background: none;
-    width: 1050px;
-    height: 300px;
-    padding-bottom: 200px;
-
+    background: transparent;
 }
 
 ::placeholder {
-    color: rgb(39, 34, 34);
+    color: rgb(173, 166, 166)
 }
 
+.button {
+    color: rgb(177, 169, 169);
+}
 .card-footer {
     align-content: center;
 
