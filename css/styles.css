@@ -1,5 +1,9 @@
 body {
-    background-color: darkgray;
+    background-color: black;
+}
+
+.container {
+    background-color: rgb(241, 238, 238);
 }
 
 .intro1 {
@@ -73,6 +77,9 @@ p {
     height: 200px;
     width: 200px;
     border-radius: 10px;
+    
+    
+    
     
 }
 
