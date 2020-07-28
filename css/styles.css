@@ -119,28 +119,31 @@ h3 {
     
 }
 
-.wrapper {
+#mc_embed_signup_scroll{
     background-image: url(../assets/backgrounds/c_image.jpg);
     background-size: cover;
     position: relative;    
 }
 
 
-.input-field .input,
-.message textarea {
-    margin: 10px 0;
+#mce-MESSAGE {
+    margin: 5px 0;
     background: transparent;
     border: 0px;
     width: 100%;
     height: 250px;
+    padding-right: 10px;
 
 }
-#name { 
+
+.mc-field-group1 { 
     background: transparent;
+    float: left;
 }
 
-#email {
+.mc-field-group2 {
     background: transparent;
+    float: right;
 }
 
 ::placeholder {
